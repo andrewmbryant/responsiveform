@@ -29,7 +29,7 @@
 
   <section class="contact column1">
     <h3 class="contactinfo">Contact Information</h3>
-    <form class="contactform">
+    <form class="contactform" action="" method="get">
       <fieldset>
         <legend>Contact Information</legend>
 
@@ -52,8 +52,8 @@
       <label for="city">City</label>
       <input type="text" name="city" id="city" class="inputfield">
 
-      <label>State</label>
-      <select name="state">
+      <label for="state">State</label>
+      <select name="state" id="state">
         <option value="" disabled selected>Choose State</option>
         <option value="AL">Alabama</option>
       	<option value="AK">Alaska</option>
@@ -122,7 +122,7 @@
   <section class="newsletter column2">
     <h3 class="newsletterinfo">Newsletter</h3>
     <h4 class="snewsletter">Select the newsletters you would like to receive</h4>
-    <form class="newsletterform">
+    <form class="newsletterform" action="" method="get">
       <fieldset>
         <legend>Newsletter</legend>
 
@@ -147,8 +147,8 @@
       <label><input type="radio" name="format" class="htmlformat">Load me up!</label>
       <label><input type="radio" name="format" class="plain">Seriously, stop bothering me!</label>
 
-      <h4 class="snewsletter snewsletter2">Other topics you'd like to hear about</h4>
-      <textarea name="topics" class="topics"></textarea>
+      <label class="snewsletter snewsletter2 " for="topics">Other topics you'd like to hear about:</label>
+      <textarea name="topics" id="topics" class="topics"></textarea>
 
       <button type="button" class="button">Sign Up</button>
 

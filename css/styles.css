@@ -151,6 +151,7 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 textarea:focus {
 outline: none;
+transition: box-shadow 0.5s ease;
   box-shadow: 0 0 0 1.5pt black;
 }
 

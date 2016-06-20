@@ -15,7 +15,7 @@ h1, h2, h3, h4, p, label, textarea, select, .button {
 }
 
 .title {
-  background-color: coral;
+  background-color: darkorange;
   padding: 1em 0;
 }
 
@@ -162,7 +162,7 @@ button:focus {
 
 button:hover {
   outline: none;
-  background-color: rgb(64, 200, 200);
+  background-color: darkorange;
 }
 
 button {
@@ -174,7 +174,7 @@ button {
   color: white;
   font-size: large;
   border: none;
-  background-color: turquoise;
+  background-color: orange;
   border-radius: 5px;
   height: 60px;
   margin: 2em 0;
